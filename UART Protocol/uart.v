@@ -106,7 +106,7 @@ module transmitter(
 endmodule
 
 
-module reciver(
+module receiver(
   input clk,rst,baud_rclk,rx,
   output reg done_r,error
 );
